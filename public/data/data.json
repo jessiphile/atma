@@ -1,0 +1,372 @@
+[    
+    {
+        "id": 10000,
+        "name": "Lunaris",
+        "info" : "<p>The second-largest city on the Inner Sea, Lunaris is the capital of Hopesfield province and the seat of House Lambarth. Lunaris is a modern, beautiful city, known for its clean streets and public trolleys. It is also famed for never falling to invaders, having never been conquered directly even by King Turan himself.</p>",
+        "type": "city",
+        "left" : 497,
+        "top": 378,
+        "images": false
+    },
+    {
+        "id": 10001,
+        "name": "The Isle of Orynn",
+        "info" : "<p>Orynn is a large, frigid island that lies in the farthest north of Avalonia. Most of the island is covered with boreal forest, dotted with lakes that are frozen for two-thirds of the year, making it an inhospitable land to visit at the best of times. The people of Orynn belong to a number of clans and tribes, but to outsiders, the differences in their customs seem subtle.</p>",
+        "type": "location",
+        "left" : 780,
+        "top": 277,
+        "images": false
+        
+    },
+    {
+        "id": 10002,
+        "name": "Gallowmere",
+        "info" : "<p>A foreboding fortress on a high shelf above the Vexol Wood. Gallowmere is an old castle with a great deal of history predating the unification of Serica.</p><p>It was ruled by Viscount Alden Carwinn until he was recently revealed to be a vampiric imposter, and vanquished by the party.</p>",
+        "type": "fortress",
+        "left" : 510,
+        "top": 569,
+        "images": false
+    },
+    {
+        "id": 10003,
+        "name": "Silves",
+        "info" : "<p>A beautiful town nestled in the north end of the Wyvernspine mountain range, Silves is a popular health and tourist destination known for its hot springs and waterfalls, and is ruled by House Dalliant.</p><p>Amadis grew up here with his family, before House Dalliant was devastated by Chronos's attack.</p>",
+        "type": "village large",
+        "left" : 542,
+        "top": 453,
+        "images": "Amadis Dalliant.png"
+    },
+    {
+        "id": 10004,
+        "name": "Esgares",
+        "info" : "<p>The massive capital of the Esgarias Empire, a major center of population and the country's industrial heart as well. Counting its sprawling outskirts as well, the capital is believed to be the most populous city on the continent. The city is an eclectic blend of old and new, with Esgarias flags flying over crumbling Firstborn manors, and airships flying overhead.</p><p>Despite the Empire's rhetoric against class distinctions, its capital has a sharp gulf between its richest and poorest citizens. Esgares's ritziest district, Eden's Rise, is patrolled by Imperial soldiers in state-of-the-art magitech war machines, and has the air of a military parade at all times of year. Its poorest, the wrongly named Brightside on the eastern outskirts, is lined with hovels and choked with dust and smog from the city's industry.</p><p>Esgares was recently the target of a major attack by Sateus and his Flamebringers.</p>",
+        "type": "city large capital",
+        "left" : 710,
+        "top": 403,
+        "images": false
+    },
+    {
+        "id": 10005,
+        "name": "Crescent Lake",
+        "info" : "<p>A small, but vibrant town in southern Glimmerdell that is notable as the residence of Count Alain Lindborne, the Divine Blade of Serica and one of its foremost champions.</p><p>Crescent Lake became Bertrand's unofficial home several years ago, when the young knight was taken on as Lindborne's student, and he was welcomed by the populace. Lindborne's daughter Carren also calls Crescent Lake home.</p>", 
+        "type": "village",
+        "left" : 532,
+        "top": 578,
+        "images": false
+    },
+    {
+        "id": 10006,
+        "name": "Keld",
+        "info" : "<p>A small village in northeastern Estermarsh, founded by several families of chimera who banded together not only to survive, but to enjoy the freedom and equality of the wilds. Keld is also home to several members of the Order of Twilight, an Avalonian order of sorcerers who safeguard dangerous knowledge and artifacts.</p><p>Rhodanthe spent most of her life here, until it was shattered by her sister's return on the very day she became a member of her mother's order.</p>",
+        "type": "village",
+        "left" : 476,
+        "top": 465,
+        "images": "Rhodanthe Vance.png"
+    },
+    {
+        "id": 10007,
+        "name": "Chevalier's Redoubt",
+        "info" : "<p>Originally a military outpost built by Serican knights to oversee the difficult mountain passes into Sazin, Chevalier's Redoubt developed a mining town around it over the years.</p><p>It is ruled by Bertrand's house, House Foch. </p>",
+        "type": "village med",
+        "left" : 560,
+        "top": 596,
+        "images": "Bertrand Foch.png"
+    },
+    {
+        "id": 10008,
+        "name": "Volance",
+        "info" : "<p>The largest population center on Avalonia's Inner Sea, Volance is a center of international trade, and was once the capital of Windmount. The Treaty of Volance that ended the Imperial Invasion of Serica made Volance an independent Free City to act as a buffer and free trade zone. This led to an economic boom in the city, but also a large increase in crime and inequality.</p><p>Mielle was born here, and eventually fell in with Nash and Devil Fang after running the difficult post-war streets to help support her brothers and sisters. Yunxu also spent his very early childhood just outside of Volance.</p>",
+        "type": "city large",
+        "left" : 521,
+        "top": 384,
+        "images": "Mielle Leverette.png"
+    },
+    {
+        "id": 10009,
+        "name": "Silvernesse City",
+        "info" : "<p>The capital city of the Kingdom of Serica, containing both the royal palace and the Parliament. Silvernesse is the largest and most modern city in Serica, eclipsing both Lunaris and Starminster in how more and more crystal-powered military and civilian vehicles traverse its planned, paved streets each year. The capital and its skilled populace is also critical to industry in western Avalonia, and the Fairdal Corporation has its headquarters and several factories here.</p><p>Sofia has spent most of her life here, growing up in the orbit of Queen Aldis, who often had her mother's chilly, critical attention upon her more often than Sofia did. Gabriel Silva also grew up here, though in very different circles. </p>",
+        "type": "city capital",
+        "left" : 378,
+        "top": 465,
+        "images": "Sofia d'Alavara.png"
+    },
+    {
+        "id": 10010,
+        "name": "Sebahnea",
+        "info" : "<p>A thriving, boisterous seaside city, Sebahnea is known for its beautiful beaches and variety of excellent restaurants, as well as being the capital of the chimera-led province of Haven. Order is kept here by the Ironscale police force, led by their lizard chimera captain, named Kava. Thousands of tourists visit the city each year, many from the rest of the Kingdom, many from Talisia, and some from farther still.</p><p>Yunxu grew up in an orphanage about a day's walk inland from here.</p>",
+        "type": "village large",
+        "left" : 333,
+        "top": 605,
+        "images": "Yunxu Ren.png"
+    },
+    {
+        "id": 10011,
+        "name": "Serica",
+        "info" : "<p>The Kingdom is one of the two great powers on the continent, and its supporters see it as the world’s foremost beacon of freedom and justice. It is an old kingdom, though its member provinces and ruling dynasties have changed over the centuries. House Alavara rose to power during the Shadow War just over eighty years ago, a brutal and horrendous civil war that also saw the Principality of Vallione break away from the Kingdom. The capital province is centered around the city of Silvernesse, a sprawling coastal metropolis. The royal palace sits in the center of the city, upon a natural rise.</p><p>Form of Government: As head of a constitutional monarchy, Serica’s monarch serves as its chief of state and chief executive, as well as supreme military leader in times of war, but while the crown is powerful, there are important checks on it. Appointment of all major ministers, including the royal chancellor, must be confirmed by the bicameral Parliament, with houses representing both the nobility and the (wealthier) commoners. Both houses can tax and secure funding, but the House of Lords also must approve the creation and apportionment of provinces, as well as foreign treaties. The lower house, however, has the power to raise a Kingdom-wide army and declare war for purposes other than strictly defensive. Since a short but devastating war with the Esgarias Empire fifteen years ago, a Royal Army has been approved, and rapidly built up and modernized under the watch of Chancellor Abram.</p>",
+        "type": "country text",
+        "left" : 447,
+        "top": 498,
+        "images": false
+    },
+    {
+        "id": 10012,
+        "name": "Esgarias Empire",
+        "info" : "<p>Description: The Kingdom’s great rival, the Empire as a state has only been in existence for forty years, the result of a massive and bloody years-long revolution against the ruling Firstborn, whose First Empire was reduced to small mountain holdings on the peninsula of Aralon. It was named by its first Emperor, Garlan, after the ideal state from the writings of a human philosopher, and he also took the state’s name as his surname. Heavily militaristic and expansionist, the Empire has grown beyond even the First Empire’s former borders.</p><p>Form of Government: The Empire is an autocracy led by a single absolutely powerful figure, theoretically guided by principles of freedom and individual autonomy. The Empire’s government is simple - the Empress appoints governors over certain areas, called regents, who wield her authority and can appoint their own actors as they wish. Besides the Empress, the most powerful figures in the Empire are four regents designated as the Empire’s Four Pillars, one for each cardinal direction, who wield enormous influence in their areas.</p>",
+        "type": "country text",
+        "left" : 668,
+        "top": 465,
+        "images": false
+    },
+    {
+        "id": 10013,
+        "name": "Aralon",
+        "info" : "<p>Description: The smallest nation on the continent of Avalonia, Aralon is nestled on a small peninsula to the extreme southeast. Its population almost entirely consists of the Firstborn - tall, slender, but unbelievably strong and agile people with limited connection to the elements within themselves, but unmatched potency in both engineering and sorcery. The rest of population are slaves held on tight leashes. The Firstborn once ruled at least half of Avalonia, or perhaps all of it, depending on the stories one believes. However, it was brought low by the colossal slave revolt that built the Esgarias Empire on its ashes, and the peninsula of Aralon is all that remains. The mountains are an effective redoubt, and the First Empire’s defenses seem to be impregnable. A single city on the coast, Naeth Alari, connects the Firstborn to the world. Its port is protected by mammoth coastal guns capable of sinking a battleship ten miles out to sea.</p><p>Form of Government: The First Empire is an absolute state ruled by an Emperor. While there are a handful of defectors from the crumbling First Empire that sought refuge in the Kingdom, very little is known of what has become of the state since its diminishment. Certainly, the military sphere has become even more important, as three Imperial legions are constantly rotated out at its border.</p>",
+        "type": "country text",
+        "left" : 761,
+        "top": 613,
+        "images": false
+    },
+    {
+        "id": 10014,
+        "name": "Vallione Principality",
+        "info" : "<p>Description: Serica’s northern neighbor, a country with mountains at its center slowly stretching down into rolling hills toward the sea in three directions. Vallione has a chilly climate, particularly in the mountains and on the northern shore, and is varied enough in industry to be largely self-sufficient, though fruits and grains are imported from Hopesfield to the south to supplement a traditional diet of seafood, domesticated reindeer, and hardy legumes. Vallione was once a province of the Kingdom, but broke away during the Shadow War 80 years ago, the Serican civil war that engulfed half the continent. The people of Vallione are highly religious, following the faith of Sildeah almost exclusively through the state church, the Church of the Pure.</p><p>Form of Government: Vallione is an effective theocracy of the Church of the Pure, with temporal power held by a single Prince (whose gender does not matter, but they remain Prince nonetheless), chosen from one of the leading families. The Prince has no legislature, passing law by fiat, but these laws can be stricken down by the Church, which is positioned legally as the protector of the common people. Sildeah’s church is by far the most important institution in Vallione, an arm of the government in all but name. It collects taxes in the form of extremely high tithes, and provides a full range of benefits to every citizen of Vallione, which can earnestly claim to have no homelessness - nor unemployment, as the Church will hire any citizen who cannot find work elsewhere. Vallione has a conventional military led by the Prince, but the Church also arms its own Paladins, holy knights of Vallione sworn to the Archbishop.</p>",
+        "type": "country text",
+        "left" : 455,
+        "top": 286,
+        "images": false
+    },
+    {
+        "id": 10015,
+        "name": "Rakkari Steppes",
+        "info" : false,
+        "type": "country text nosel",
+        "left" : 488,
+        "top": 695,
+        "images": false
+    },
+    {
+        "id": 10016,
+        "name": "Republic of Talisia",
+        "info" : "<p>Description: The technologically advanced Republic of Talisia lies on an archipelago off the west coast of Norgarde and Vallione. Its founders were dark-skinned human settlers from the Western Continent some three centuries ago, originally a large group of political dissidents who brought with them revolutionary ideas as well as advanced technology compared to the Avalonian mainland at the time. They eventually came to be a critical ally of the Kingdom of Serica, and it is Talisian airships that fly between the Kingdom’s major cities, and Talisian air power that struck the largest blow against the Empire during the Imperial Invasion fifteen years ago.</p><p>Form of Government: Talisia is a representative republic with a president elected by the general population, along with a unicameral legislature of civil servants who represent the interests of their districts. The Talisian Army is fairly small and untested on the ground, but its navy and air power, combined with superior technology, allow it to project its power across the continent.</p>",
+        "type": "country text",
+        "left" : 274,
+        "top": 354,
+        "images": false
+    },
+    {
+        "id": 10017,
+        "name": "Langskov",
+        "info" : "<p>A chilly but wealthy and flourishing city on Vallione's northwestern peninsula, Langskov is somewhat isolated and insulated from life in the rest of Vallione, both culturally and geographically. The Church of the Pure struggles with what to do with it, relying on its streams of Talisian goods while struggling shut down Talisian cultural influence, like the recent wellspring of underground radio stations.</p><p>Diantha's family, House Remston, is the most prominent noble house in Langskov, and she grew up here. </p>",
+        "type": "city",
+        "left" : 332,
+        "top": 269,
+        "images": false
+    },
+    {
+        "id": 10018,
+        "name": "Whitespire",
+        "info" : "<p>A beautiful city that overlooks the most popular mountain pass between Vallione and Serica, Whitespire is an old center of learning, and famous for both the soaring spires and miles of catacombs beneath the ancient cathedral at the center of the city, known as the Crusader's Testament. It was once a temple to Ashallah, but was rededicated to Sildeah by the Church of the Pure, and allegedly houses relics and remains from legendary times.</p><p>Whitespire is currently occupied by the Royal Army, with Lord Major Percival Montcroix acting as Viceroy for the Security Zone.</p>",
+        "type": "city",
+        "left" : 476,
+        "top": 342,
+        "images": false
+    },
+    {
+        "id": 10019,
+        "name": "Walden",
+        "info" : "<p>A moderate-sized town surrounded by miles of farms in northwestern Hopesfield, Walden is a viscounty ruled by the House Ruxlyn.</p><p>The latest Viscount Ruxlyn has a reputation for eccentricity among the nobility, not least for adopting a chimera named Fiona as his daughter and heir.</p>",
+        "type": "village med",
+        "left" : 438,
+        "top": 386,
+        "images": false
+    },
+    {
+        "id": 10020,
+        "name": "Cortona",
+        "info" : "<p>A small, vibrant city on the confluence of two rivers, notable for its highly educated, urbane populace and producing exceptionally competent craftspeople.</p><p>King Turan Royal Academy, the most prestigious and selective advanced combat school on the entire continent, is nearby, and provides a significant boost to the town's economy.</p>",
+        "type": "city",
+        "left" : 473,
+        "top": 417,
+        "images": false
+    },
+    {
+        "id": 10021,
+        "name": "Haersley Fortress",
+        "info" : "<p>A colossal military keep on the Kingdom's eastern border, surrounded by a small city, which is the site of significant industry.</p><p>This is the seat of House Belferes, and the capital of Windmount since the Imperial Invasion. Julianna de Belferes grew up here.</p>",
+        "type": "fortress",
+        "left" : 518,
+        "top": 411,
+        "images": false
+    },
+    {
+        "id": 10022,
+        "name": "Starminster",
+        "info" : "<p>Capital of Norgarde province and the seat of House Rottston, Starminster is a prosperous industrial city, known for its sprawling dockyards.</p>",
+        "type": "city",
+        "left" : 305,
+        "top": 440,
+        "images": false
+    },
+    {
+        "id": 10023,
+        "name": "Ruin Sage's Sanctuary",
+        "info" : "<p>In the far east of the Estermarsh, upon a small island in a marsh lake near the edges of the Vexol Wood, lies the home of Sieralise, the Sage of Ruin, an incredibly powerful seer and one of the few remaining survivors of the Shadow War.</p><p>The party learned the secret of her home - of the thousands of Soulless locked underneath the lake, including the terrifying Blight of Avalonia that she helped create. </p>",
+        "type": "location",
+        "left" : 488,
+        "top": 502,
+        "images": false
+    },
+    {
+        "id": 10024,
+        "name": "Leypool",
+        "info" : "<p>A small walled city, Leypool is the capital of Estermarsh, the seat of House Arsleigh, and the only part of the Serica's central wetlands considered civilized by most of the country.</p><p>The party found the province even more beleaguered than usual, pressed by a cult called the Returners skilled in summoning. Duchess Arsleigh has turned to her aunt, Avice, to create Soulless out of condemned criminals.</p>",
+        "type": "city",
+        "left" : 449,
+        "top": 524,
+        "images": false
+    },
+    {
+        "id": 10025,
+        "name": "Arcvale",
+        "info" : "<p>The only large city in largely rural Glimmerdell, Arcvale is the capital of the province and the seat of House Valclair. A city of learning, Arcvale's university is known across the continent.</p><p>Iliard de Valclair was raised here, mostly by his mother and a number of tutors, in the absence of his playboy father, who was often away in the capital.</p>",
+        "type": "city",
+        "left" : 521,
+        "top": 479,
+        "images": false
+    },
+    {
+        "id": 10026,
+        "name": "The Vexol Wood",
+        "info" : "<p>A large forest in southern Serica, mostly in Glimmerdell, but extending into eastern Southvale and Estermarsh as well, the Vexol Wood is a wild and mystical place, home to rare wildlife and deadly cults.</p>",
+        "type": "location",
+        "left" : 487,
+        "top": 581,
+        "images": false
+    },
+    {
+        "id": 10027,
+        "name": "Falcrest",
+        "info" : "<p>A relatively small city, but by far the largest single settlement in Southvale, Falcrest is the official seat of House Gilmont - though the quiet, scholarly Duke Elias is known to greatly prefer his country estates to his relatively spartan office in the city. The city is known in the kingdom for its high quality fabric production, paper mills, and bookbinding.</p><p>With a somewhat absentee ruler, the real day-to-day power in Falcrest is held by Baron Reeve Hornley, the duke's personally and politically powerful right hand.</p><p>Electra once claimed to be from near Falcrest, but this was definitely a lie. </p>",
+        "type": "city",
+        "left": 410,
+        "top": 552,
+        "images": false
+    },
+    {
+        "id": 10028,
+        "name": "The Lament",
+        "info" : "<p>One of Chronos's primary bases on Avalonia, the Lament is a hidden fortress high in the Wyvernspine Mountains. Cloaked in sorcery, every approach prepared with deadly traps, it is as well-defended as any place on the continent, and may be nigh-impregnable with high-ranking Enforcers like Vyria and Soren defending it.</p><p>Alisze Vance, Emissary of the Magister, commands the Lament. </p>",
+        "type": "fortress flip",
+        "left": 557,
+        "top": 540,
+        "images": false
+    },
+    {
+        "id": 10029,
+        "name": "Rakova",
+        "info" : "<p>The Esgarias Empire's second largest city, Rakova was once the capital of the rich agricultural state of Tressia, which was a mutual trading partner of the Kingdom for two hundred years of peace on the border. Though one of the Firstborn's vassals, Tressia was a fairly independent buffer state between Serica and the First Empire, and was known for its culture of freedom of speech and thought, which gave rise to a number of notable writers.</p>",
+        "type": "city large",
+        "left": 590,
+        "top": 415,
+        "images": false
+    },
+    {
+        "id": 10030,
+        "name": "Gorgorus Bastion",
+        "info" : "<p>An immense series of walls, redoubts, and fortresses lining the central valley that was once the western frontier of the First Empire, Gorgorus Bastion is not only a massive obstacle to potential invaders, but the center of the Imperial Army's organization, training, and supply chains. It is closed to outsiders, with strict requirements and identification required to enter any grounds within the ring of fortifications. Based on spy reports, it is believed that there is even more of the base underground, where much of the Empire's research and development takes place.</p><p>The dragon Lady Arcas, a powerful ally of the Empire, once made her lair here.</p>",
+        "type": "fortress",
+        "left": 633,
+        "top": 402,
+        "images": false
+    },
+    {
+        "id": 10031,
+        "name": "Ruins of Kilead",
+        "info" : "<p>The blasted remnants of a tiny village in the mountainous border once shared among the Kingdom, Empire, and Sazin.</p><p>Sateus the Crimson spent the first ten or so years of his life here.</p>",
+        "type": "city",
+        "left": 599,
+        "top": 467,
+        "images": false
+    },
+    {
+        "id": 10032,
+        "name": "Lucena",
+        "info" : "<p>The eastern half of Sazin is and was more populous, with arable land fed by the Savamere River. The city of Lucena has been rebuilt into one of the richest cities in the entire Esgarias Empire, and remains the administrative center of the Imperial occupation. It is hardly a rare target of Sazin terrorists, but less so than the volatile west.</p><p>The Imperial regent acting from here is Tuval Velazzo, Prince Corban's first cousin, and the Bellia family, Amadis's relatives on his mother's side, are a prominent family. One of the Flamebringers, Eurydice Bellia, is from here.</p>",
+        "type": "city",
+        "left": 700,
+        "top": 528,
+        "images": false
+    },
+    {
+        "id": 10033,
+        "name": "Mitsukishi",
+        "info" : "<p>Originally exiles from the East, the ruling class of Mitsukishi are said to be among the very first chimera to exist. Their early rulers committed themselves as vassals of the First Empire in exchange for protection and the use of their transmogrification magic and technology, creating a race of bee chimera that was further modified through their own processes of selective breeding and the use of reginium, a powerful mind-and-body-affecting substance.</p><p>Queen Kakou of Mitsukishi chafed at the Firstborn's seizure of their country for military use, however, and ultimately sided with the Garlan's rebellion, but in the end, however, the queen refused to bend the knee to the new Empire, was killed by Grandmaster Esclados, whom she had fought alongside for many years.</p><p>Modern Mitsukishi has strength yet, but is a shadow of its former power, led by Kakou's son Prince Yobotansei, who rules as Imperial Regent. There are rumors of a faction opposed to this collaborationist rule, however, known as the Dokushingumi, led by the regent's own sister.</p><p>The party saw the truth of that rumor on their visit, befriending Princess Cerena and helping her save her people from her brother's plot. They also observed the ravages caused by the Empire's factories on their neighbors downriver, as a third of the river delta is a poisoned wasteland.</p>",
+        "type": "city",
+        "left": 757,
+        "top": 390,
+        "images": false
+    },
+    {
+        "id": 10034,
+        "name": "Bagras Alara",
+        "info" : "<p>Where Sazin's desert meets the Wyvernspine mountains, a massive white marble castle in looms over a city of much simpler sandstone dwellings. Bagras Alara is a sacred site, known as the Divine Throne of Sazin's kings, and was the last bastion of the country to fall, several years after the collapse of the east.</p><p>It was here that the Makhai elite made their last stand in a brutal battle to the death against Imperial forces, and Gratian Falasca, now the last of them, was chosen to help the Queen and the newborn Prince Corban escape to Serica.</p>",
+        "type": "city",
+        "left": 625,
+        "top": 592,
+        "images": false
+    },
+    {
+        "id": 10035,
+        "name": "Delosard Wood",
+        "info" : "<p>An expansive boreal forest spread across the north of the Empire, the Delosard Wood is a place of mysteries not unlike the Vexol Wood in Serica.</p>",
+        "type": "location",
+        "left": 658,
+        "top": 324,
+        "images": false
+    },
+    {
+        "id": 10036,
+        "name": false,
+        "info" : false,
+        "type": "city capital nosel",
+        "left": 262,
+        "top": 316,
+        "images": false
+    },
+    {
+        "id": 10037,
+        "name": false,
+        "info" : false,
+        "type": "city capital nosel",
+        "left": 497,
+        "top": 331,
+        "images": false
+    },
+    {
+        "id": 10038,
+        "name": "Naeth Alari",
+        "info" : "<p>Aralon's sole remaining city, a fortified by the mountains that also serve as its border with the Empire. It is the last Firstborn stronghold in Avalonia, though is nigh impregnable from the outside.</p>",
+        "type": "city capital",
+        "left": 782,
+        "top": 648,
+        "images": false
+    },
+    {
+        "id": 10039,
+        "name": "Ranyako",
+        "info" : "<p>A small cultural hub on the Empire's eastern coast. It is a frequent destination for the eastern country of Sun-ai's nationals, and many of its diplomats are housed here as well.</p>",
+        "type": "city",
+        "left": 763,
+        "top": 513,
+        "images": false
+    },
+    {
+        "id": 10040,
+        "name": "Magnaea",
+        "info" : "<p>A common vacation destination for middle-class Imperials, Magnaea is a beautiful town in the forested hills of the north, snowy in the winter, but popular in the spring and summer for swimming, fishing, and hiking.</p><p>Magnaea was once the farthest north settlement in the country of Sabia, a country long ago subjugated by the First Empire, which was supposedly among the first human civilizations to arise on Avalonia. Modern Sabic, the common language on the continent, is the descendant of the language once spoken there.</p>",
+        "type": "village med",
+        "left": 690,
+        "top": 377,
+        "images": false
+    }
+]

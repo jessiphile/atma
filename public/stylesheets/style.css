@@ -1,0 +1,915 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Noto+Sans+JP:wght@300&family=Katibeh&family=Calistoga&family=Uncial+Antiqua&display=swap');
+a {
+    text-decoration: underline;
+    color: rgb(201, 184, 36)
+}
+
+a:hover {
+    color: rgba(226, 47, 15, 0.7);
+}
+
+.loadingText:after {
+    content: 'Loading...';
+    text-shadow: 2px 2px 1px rgba(0,0,0,.5);
+    margin-top: 20%;
+    color: rgb(201, 184, 36);
+    position: absolute;
+    bottom: 5%; 
+    width: 100%;
+    text-align: center;
+    left: 0;
+    font-family: "Katibeh", cursive;
+    font-size: 8vmin;
+    animation-name: loadingText;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loadingText {
+    0% {content: "Loading"}
+    25% {content: "Loading."}
+    50% {content: "Loading.."}
+    75% {content: "Loading..."}
+    100% {content: "Loading"}
+
+}
+
+.window {
+    visibility: hidden;
+}
+
+
+.credits {
+    position: absolute;
+    display: none;
+    top:50%;
+    left:50%;
+    height: 50%;
+    width: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: rgba(0,0,0,.9);
+    border: 2px solid rgb(201, 184, 36);
+    border-radius: 2px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 12px;
+    z-index: 1000;
+}
+
+.credLink {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.splash {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    /* border: 4px solid rgb(201, 184, 36); */
+    color: rgb(201, 184, 36);
+    align-items: center;
+    z-index: 1000;
+}
+
+.splashAfter {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    animation-name: hideSplash;
+    animation-duration: 1s;
+}
+
+@keyframes hideSplash {
+    0% {opacity: 1; visibility: visible};
+    99% {opacity: 0; visibility: visible}
+    100% {opacity: 0; visibility: hidden; display: none;}
+}
+
+.splashImg {
+    position: absolute;
+    width: 25%;
+    border-radius: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+    /* animation-name: loadImg;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+}
+
+@keyframes loadImg {
+    0% {transform: translateX(-50%) translateY(-50%) rotate(0);}
+    100% {transform: translateX(-50%) translateY(-50%) rotate(-360deg);}
+}
+
+#splashImages {
+    transform: translate(0, -50%);
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px black;
+    /* animation-name: load;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+}
+
+#splashImages div {
+    border-radius: 50%;
+    background-color: rgb(39, 39, 39);
+    border: 2px solid rgb(201, 184, 36);
+    box-shadow: inset 2px 2px 4px black;
+}
+
+@keyframes load {
+    0% {transform: translate(0, -50%) rotate(0)}
+    100% {transform: translate(0, -50%) rotate(360deg)}
+}
+
+
+
+body {
+    background-color: black
+}
+
+.bCorners {
+    width: 50px;
+    position: absolute;
+    pointer-events: none;
+}
+.button{
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: rgba(0,0,0,.7);
+    border: 1px solid white;
+    color: white;
+}
+
+.cBut {
+    position: absolute;
+    display: none;
+    left: -25px;
+    top: 5px;
+    height: 22px;
+    width: 21px;
+    border-color: rgb(201, 184, 36);
+}
+
+.cBar {
+    width: 12px;
+    height: 2px;
+    background-color: rgb(226, 47, 15);
+    margin: 8px 0 0 3.5px;
+    transform: rotate(45deg) translate(1px, 0);
+}
+
+.cBar.c2 {
+    margin: 0 0 0 3.5px;
+    transform: rotate(-45deg) translate(1px, 0);
+}
+
+.menBut {
+    display: inline-block;
+    cursor: pointer;
+    padding-top: 1px;
+}
+  
+.bar1, .bar2, .bar3 {
+    width: 18px;
+    height: 2px;
+    background-color: white;
+    margin: 4px 0 4px 3px;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-4px, 4.5px);
+    background-color: rgba(226, 47, 15, 0.7);
+}
+  
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    background-color: rgba(226, 47, 15, 0.7);
+    transform: rotate(45deg) translate(-4px, -5px);
+}
+
+.change.menBut {
+    border: 1px solid rgb(201, 184, 36);
+}
+
+.zBar {
+    width: 10px;
+    height: 2px;
+    background-color: white;
+    margin: 11px 0 0 7px;
+    transition: 0.4s;
+}
+
+.zBar.b1 {
+    margin: -2px 0 0 7px;
+    transform: rotate(90deg);
+}
+
+
+.button:hover{
+    border-color: rgb(201, 184, 36);
+    color: rgb(201, 184, 36);
+}
+
+.button:active .zBar{
+    background-color: rgb(226, 47, 15);
+}
+
+.zoomOut {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    transform: translateX(-50%) translateY(-83%);
+    background-image: url('/images/icons/iconOut.png');
+    background-size: 100% 100%;
+    cursor: pointer;
+    animation-name: fadeIconIn;
+    animation-duration: .5s;
+    z-index: 0;
+}
+
+@keyframes fadeIconIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+.zoomOut::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.zoomOut.capital img {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 12px;
+    border-radius: 50%;
+}
+
+.zoomOut:hover {
+    z-index: 99;
+    background-image: url('/images/icons/iconOutHover.png');
+}
+
+.zoomIn {
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50%;
+    animation-name: fadeLargeIconIn;
+    animation-duration: .5s;
+}
+
+@keyframes fadeLargeIconIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+.zoomIn.capital img {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) translateY(50%);
+    /* background-color: rgba(0,0,0,.5);
+    border: 2px solid rgba(201, 184, 36, 0.7); */
+    width: 12px;
+    border-radius: 50%;
+}
+
+.zoomOut.city::after {
+    background:rgb(22, 18, 216);
+}
+.zoomIn.city {
+    background-image: url('/images/icons/city.png');
+}
+.zoomIn.city.med {
+    background-image: url('/images/icons/city med.png');
+}
+.zoomIn.city.large {
+    background-image: url('/images/icons/city large.png');
+}
+
+.zoomOut.location::after {
+    background:rgb(133, 66, 3);
+}
+.zoomIn.location {
+    background-image: url('/images/icons/location.png');
+}
+
+.zoomOut.fortress::after {
+    background:rgb(151, 146, 146);
+}
+.zoomIn.fortress {
+    background-image: url('/images/icons/fortress.png');
+}
+
+
+.zoomOut.village::after {
+    background:rgb(125, 29, 214);
+}
+.zoomIn.village {
+    background-image: url('/images/icons/village.png');
+}
+
+.zoomIn.village.large {
+    background-image: url('/images/icons/village large.png');
+}
+
+.zoomIn.village.med {
+    background-image: url('/images/icons/village med.png');
+}
+
+.zoomOut.land::after {
+    background:rgb(89, 141, 5);
+}
+.zoomIn.land {
+    background-image: url('/images/icons/land.png');
+}
+
+.zoomOut:hover::after {
+    background: rgba(201, 184, 36, 1);
+}
+
+.zoomIn:hover {
+    transform: translateX(-50%) translateY(-50%);
+    margin-top: 2px;
+    cursor: pointer;
+    z-index: 99;
+    background-color: rgba(0,0,0,.5);
+    border-bottom: 3.5px solid rgba(201, 184, 36, 0.7);
+    border-right: 1px solid rgba(201, 184, 36, 0.7);
+    border-left: 1px solid rgba(201, 184, 36, 0.7);
+    border-top: hidden;
+    box-shadow: inset 0 0 2px black;
+}
+
+.capital.zoomIn:hover {
+    border-bottom: 3px solid rgba(201, 184, 36, 0.7);
+    box-shadow: inset 0 -2px 2px rgba(255,255,255,.2);
+    border-top: hidden;
+    margin-top: 2px;
+}
+
+.capital.zoomIn:hover img {
+    background-color: rgba(0,0,0,.5);
+    border: 2px solid rgba(201, 184, 36, 0.7);
+    width: 16px;
+    margin-top: 20px;
+    opacity: 1;
+    animation-name: showStar;
+    animation-duration: .1s;
+}
+
+@keyframes showStar {
+    from {opacity: 0; bottom: 100%;}
+    to {opacity: 1; bottom: 0;}
+}
+
+.zoomIn:hover .locTitle, .zoomOut:hover .locTitle {
+    visibility: visible;
+    animation-name: showName;
+    animation-duration: .1s;
+}
+
+@keyframes showName {
+    from {opacity: 0; top: 0; visibility: hidden;}
+    to {opacity: 1; top: -32px; visibility: visible;}
+}
+
+.locTitle{
+    visibility: hidden;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 9pt;
+    padding: 2px 5px 2px 5px;
+    background-color: rgba(0,0,0,.7);
+    border: 2px solid rgba(201, 184, 36, .9);
+    border-radius: 8px;
+    color: rgb(201, 184, 36);
+    text-shadow: 0 0 5px black;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    top: -32px;
+    left: 50%;
+    z-index: 1;
+}
+
+.selected.zoomIn {
+    transform: translateX(-50%) translateY(-50%);
+    margin-top: 2px;
+    cursor: pointer;
+    z-index: 98;
+    background-color: rgba(0,0,0,.5);
+    border-bottom: 3.5px solid rgba(226, 47, 15, 0.7);
+    border-right: 1px solid rgba(226, 47, 15, 0.7);
+    border-left: 1px solid rgba(226, 47, 15, 0.7);
+    box-shadow: inset 0 0 2px black;
+}
+
+.selected.zoomIn .locTitle {
+    transform: scale(-2)
+}
+
+.selected.zoomOut {
+    z-index: 98;
+    background-image: url('/images/icons/iconOutSelected.png');
+}
+
+.selected.zoomOut::after {
+    background: rgba(226, 47, 15, 1);
+}
+
+.zoomOut.capital::after {
+    background: none;
+}
+
+.selected.zoomIn.capital {
+    border-top: hidden;
+    margin-top: 2px;
+    box-shadow: inset 0 0 2px black;
+    border-bottom: 3.5px solid rgba(226, 47, 15, 0.7);
+    border-right: 1px solid rgba(226, 47, 15, 0.7);
+    border-left: 1px solid rgba(226, 47, 15, 0.7);
+}
+
+.selected.capital img {
+    width: 16px;
+    display: block;
+    opacity: 1;
+    border: 1px solid rgba(226, 47, 15, 1);
+    background-color: rgba(0,0,0,.5);
+}
+
+.selected.capital:hover img {
+    background-color: rgba(0,0,0,.5);
+    border: 1px solid rgba(226, 47, 15, 1);
+    animation: none;
+}
+
+.selected.capital.zoomIn img {
+    background-color: rgba(0,0,0,.5);
+    border: 2px solid rgba(226, 47, 15, 1);
+}
+
+.selected.capital.zoomIn:hover img {
+    background-color: rgba(0,0,0,.5);
+    border: 2px solid rgba(226, 47, 15, 1);
+}
+
+.selected:hover .locTitle{
+    animation: none;
+}
+
+.selected:hover {
+    border-color: rgba(226, 47, 15, 0.7);
+}
+
+.selected span {
+    visibility: visible;
+    border-color: rgba(226, 47, 15, 0.7);
+}
+
+.show {
+    visibility: visible;
+    animation-name: showIcon;
+    animation-duration: .5s;
+}
+
+@keyframes showIcon {
+    from {opacity: 0; visibility: hidden;}
+    to {opacity: 1; visibility: visible;}
+}
+
+.hide {
+    visibility: hidden;
+    animation-name: hideIcon;
+    animation-duration: .5s;
+}
+
+@keyframes hideIcon {
+    from {opacity: 1; visibility: visible;}
+    to {opacity: 0; visibility: hidden;}
+}
+
+.text {
+    background: none;
+    font-family: 'Calistoga', cursive;
+    z-index: 10;
+    font-size: 21pt;
+    line-height: 1;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(29, 29, 29);
+    text-shadow: 0 0 2px black;
+    -webkit-text-stroke-width: .65px;
+    -webkit-text-stroke-color: white;
+    max-width: 200px;
+    text-align: center;
+}
+
+.text.faded {
+    opacity: 0;
+}
+
+.textSel:hover {
+    cursor: pointer;
+    color: rgb(201, 184, 36);
+}
+
+.textSel.selected {
+    color: rgb(161, 34, 11);
+}
+
+.nosel {
+    pointer-events: none;
+    opacity: .6;
+}
+
+.nosel.show {
+    animation-name: showNoSel;
+}
+
+@keyframes showNoSel {
+    from {opacity: 0; visibility: hidden;}
+    to {opacity: .6; visibility: visible;}
+}
+
+.nosel.hide {
+    animation-name: hideNoSel;
+}
+
+@keyframes hideNoSel {
+    from {opacity: .6; visibility: visible;}
+    to {opacity: 0; visibility: hidden;}
+}
+
+.infoBox{
+    position: absolute;
+    width: 20%;
+    bottom: 10px;
+    top: 10px;
+    right: -20%;
+    background-color: rgba(0,0,0,.8);;
+    border: 3px solid black;
+}
+.boxCont {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.boxCont .cont.title {
+    flex: 0 1 auto;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(201, 184, 36);
+    font-size: 26pt;
+    padding: 12px;
+    font-family: "Cinzel Decorative", cursive;
+}
+
+.boxCont .cont.info {
+    display: flex;
+    flex-flow: column;
+    flex: 1 1 auto;
+    color: white;
+    padding: 8px 16px 20px 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 10pt;
+    overflow-y: scroll;
+    text-indent: 8px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.boxCont .cont.info p{
+    mix-blend-mode: exclusion;
+}
+.boxCont .cont.footer {
+    position: relative;
+    display: none;
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+    border-top: 3px solid black;
+}
+
+.boxCont .cont.info::-webkit-scrollbar {
+    display: none;
+}
+
+.locList {
+    flex: 1 1 auto;
+    padding: 4px;
+    padding-bottom: 0;
+    overflow-y: scroll;
+    line-height: .8;
+    min-height: 120px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.infoOpen {
+    right: 10px;
+    min-width: 280px;
+    animation-name: openInfo;
+    animation-duration: .5s;
+}
+@keyframes openInfo {
+    from {right: -20%; min-width: 20%;}
+    to {right: 10px; min-width: 280px;}
+}
+.infoClose {
+    right: -20%;
+    min-width: 20%;
+    animation-name: closeInfo;
+    animation-duration: .5s;
+}
+@keyframes closeInfo {
+    from {right: 10px; min-width: 280px;}
+    to {right: -20%; min-width: 20%;}
+}
+
+
+#map {
+    position: absolute;
+    display: block;
+    background-image: url('/images/Water.png');
+    background-repeat: repeat;
+    background-size: 1024px 1024px;
+    background-position-y: 0;
+    background-position-x: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 250px black;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#map:hover {
+    cursor: grab;
+}
+
+#map_image {
+    position: absolute;
+}
+.menu {
+    position: absolute;
+    border: 3px solid black;
+    top: 10px;
+    z-index: 1;
+    bottom: 10px;
+    left: -20%;
+    width: 20%;
+    background-color: rgb(0,0,0,.8);
+}
+.menuOpen {
+    left: 10px;
+    min-width: 280px;
+    animation-name: openMenu;
+    animation-duration: .5s;
+}
+@keyframes openMenu {
+    from {left: -20%; min-width: 20%;}
+    to {left: 10px; min-width: 280px;}
+}
+.menuClose {
+    left: -20%;
+    animation-name: closeMenu;
+    animation-duration: .5s;
+}
+@keyframes closeMenu {
+    from {left: 10px; min-width: 280px;}
+    to {left: -20%; min-width: 20%;}
+}
+
+
+.background {
+    position: absolute;
+    height: 1024px;
+    width: 1024px;
+    z-index: -1;   
+}
+
+.landImage {
+    background-image: url('/images/Atma_Land.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    outline: none;
+}
+
+.bordersImage {
+    background-image: url('/images/borders.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.toggles {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 0;
+    line-height: .8;
+    font-family: "Cinzel Decorative", cursive;
+    list-style-type: none;
+}
+
+.checkMain {
+    width: 100%;
+    font-family: "Katibeh", cursive;
+    font-size: 14pt;
+}
+
+.selLink {
+    display: inline-block;
+    text-decoration: underline;
+    opacity: .7;
+    cursor: pointer;
+    font-size: 10pt;
+}
+
+.selLink:hover {
+    opacity: 1;
+    color: rgb(201, 184, 36);
+}
+
+.specCheck {
+    display: block;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    font-family: "Katibeh", cursive;
+    font-size: 14pt;
+    cursor: pointer;
+    padding: 4px 0 8px 0;
+    margin: 0;
+}
+
+.specCheck input {
+    display: none;
+}
+
+.checkmark {
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    height: 17px;
+    width: 17px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: rgb(65, 65, 65);
+}
+
+.specCheck label {
+    position: relative;
+    margin: auto 12px;
+    color:rgb(131, 131, 131);
+    pointer-events: none;
+}
+
+.checkbox:hover, .checkmark:hover, .specCheck label:hover input ~ .checkmark {
+    border-color: rgb(201, 184, 36);
+}
+
+
+
+.specCheck input:checked ~ .checkmark {
+    border-color: rgb(161, 34, 11);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+
+.specCheck input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.specCheck input:checked ~ label {
+    color: white;
+}
+  
+.specCheck:hover label {
+    opacity: .7
+}
+
+.specCheck .checkmark:after {
+    left: 5px;
+    top: -2px;
+    width: 6px;
+    height: 15px;
+    border: solid rgb(201, 184, 36);
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.ship {
+    position: absolute;
+    
+}
+
+.ship1 {
+    position: relative;
+    left: 1000px;
+    top: 535px;
+    animation-name: sail1;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sail1 {
+    0% {opacity: 0; transform: translateX(0)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform: translateX(-1000%);}
+}
+
+.ship2 {
+    position: relative;
+    left: 400px;
+    top: 0;
+    animation-name: sail2;
+    animation-duration: 240s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sail2 {
+    0% {opacity: 0; transform: translateX(0) translateY(0)}
+    5% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform: translateX(-400%) translateY(1000%);}
+}
+
+.ship3 {
+    position: relative;
+    left: 200px;
+    top: 520px;
+    transform: scaleX(-1) rotate(10deg);
+    animation-name: sail3;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sail3 {
+    0% {opacity: 0; transform: scaleX(-1) translateX(0) translateY(0) rotate(10deg)}
+    2% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform: scaleX(-1) translateX(-750%) translateY(-280%) rotate(10deg)}
+}
+
+.ship4 {
+    position: relative;
+    left: 167px;
+    top: 450px;
+    transform: scaleX(-1);
+    animation-name: sail4;
+    animation-duration: 280s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sail4 {
+    0% {opacity: 0; transform: scaleX(-1) translateX(0)}
+    2% {opacity: 1;}
+    95% {opacity: 1;}
+    100% {opacity: 0; transform: scaleX(-1) translateX(-900%)}
+}
