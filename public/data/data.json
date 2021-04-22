@@ -113,7 +113,7 @@
         "name": "Esgarias Empire",
         "info" : "<p>Description: The Kingdom’s great rival, the Empire as a state has only been in existence for forty years, the result of a massive and bloody years-long revolution against the ruling Firstborn, whose First Empire was reduced to small mountain holdings on the peninsula of Aralon. It was named by its first Emperor, Garlan, after the ideal state from the writings of a human philosopher, and he also took the state’s name as his surname. Heavily militaristic and expansionist, the Empire has grown beyond even the First Empire’s former borders.</p><p>Form of Government: The Empire is an autocracy led by a single absolutely powerful figure, theoretically guided by principles of freedom and individual autonomy. The Empire’s government is simple - the Empress appoints governors over certain areas, called regents, who wield her authority and can appoint their own actors as they wish. Besides the Empress, the most powerful figures in the Empire are four regents designated as the Empire’s Four Pillars, one for each cardinal direction, who wield enormous influence in their areas.</p>",
         "type": "country text",
-        "left" : 668,
+        "left" : 684,
         "top": 465,
         "images": false
     },
